@@ -60,5 +60,5 @@ def number_guessing_game():
 
     print("👋 Thanks for playing!")
 
-# Call the function to start the game
-number_guessing_game()
+if __name__ == "__main__":
+    number_guessing_game()
